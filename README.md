@@ -917,7 +917,7 @@ eficiente.
 
 ### 4.8.1. Database Diagram
 
-[Link del Diagrama de Clases]()
+<img src="assets/Database Diagram.jpg">
 
 ___
 

@@ -325,6 +325,11 @@ Cuando se incremente la cantidad de ventas de cursos de tutores con buena califi
 
 ### 2.1.1 Análisis competitivo
 
+<img src="assets/Competitive.jpg">
+<img src="assets/Analysis.jpg">
+<img src="assets/Landscape.jpg">
+<img src="assets/CAL.jpg">
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 Algunas estrategias que aplicaremos para afrontar las fortalezas del mercado competencia, tales como los cursos en

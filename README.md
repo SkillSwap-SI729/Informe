@@ -756,27 +756,44 @@ En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, 
 Figma, debido a sus funciones y plugins que nos permite desarrollar el prototipo sin dificultades. Asimismo se
 evidenciará el uso de los Style Guidelines e Information architecture.
 
+<img src="assets/Landing Page UI Design.jpg">
+
 ### 4.3.1. Landing Page Wireframe
 
-![WIREFRAME-LandingPage]()
+En esta sección, proporcionamos los wireframes del Landing Page para Desktop Web Browser y Mobile Web Browser. 
+Los wireframes reflejan la aplicación de los principios de diseño, elementos de diseño, diseño inclusivo y arquitectura 
+de información. Se ha dado especial atención a la disposición de los elementos para una navegación intuitiva y una 
+experiencia coherente en ambas plataformas.
+
+<img src="assets/Landing Page Wireframe.jpg">
 
 ### 4.3.2. Landing Page Mock-up
 
 Trabajando con los wireframes anteriormente mostrados, luego se aplicó los Style Guidelines para el uso de los colores.
 Como se aprecia, estos tienen un contraste llamativo en cada sección de la landing page.
-![MOCK_UP-LandingPage]()
+
+<img src="assets/Landing Page Mock-up.jpg">
 
 [Link Figma]()
 
 ## 4.4. Web Applications UX/UI Design
+En esta sección, se presenta la propuesta visual y de interacción para las aplicaciones que forman parte de la 
+experiencia de usuario con nuestros productos digitales. Se ha prestado especial atención a la usabilidad, 
+accesibilidad y coherencia en el diseño de las aplicaciones web.
 
 ### 4.4.1. Web Applications Wireframes
+
+Presentamos los wireframes de las aplicaciones móviles, evidenciando la aplicación de los principios de diseño,
+elementos de diseño, diseño inclusivo y arquitectura de información. Se han utilizado las herramientas indicadas para
+garantizar la claridad y la coherencia en la representación de las funcionalidades de las aplicaciones.
 
 ![WIREFRAME-WebApplication]()
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-En esta sección, se presentan los wireflows de la aplicación guiándose de las historias de usuario.
+Se han creado wireflows para cada User goal, considerando los User Persona para cada aplicación que forma parte del 
+alcance. Cada diagrama incluye el User goal, una explicación del flujo especificado y representa los cambios en las 
+pantallas como resultado de la interacción del usuario.
 
 #### User Persona Segmento objetivo 1
 
@@ -806,6 +823,10 @@ ___
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+Proporcionamos User Flows para cada User goal, considerando los User Persona y siendo consistentes con los Wireflows 
+presentados. Cada diagrama incluye el User goal, una explicación de los flujos y condiciones especificadas, así como las 
+rutas esperadas y alternativas.
+
 [Link LucidChart]()
 
 **User Goal:**
@@ -824,15 +845,40 @@ arquitectura de información, esto hace que la aplicación se vea lo más eficie
 
 ## 4.6. Domain-Driven Software Architecture
 
+La arquitectura de software de la aplicación de educación en línea se basa en el enfoque de Domain-Driven Design (DDD). 
+Este enfoque se centra en la comprensión profunda del dominio del problema y en la organización del software en torno a 
+los conceptos clave del dominio.
+
 ### 4.6.1. Software Architecture Context Diagram
+
+El diagrama de contexto de la arquitectura de software muestra las interacciones de alto nivel entre el sistema y sus 
+partes externas, como usuarios, sistemas externos y servicios. En el caso de nuestra aplicación de educación en línea, 
+el diagrama de contexto podría verse así:
 
 ![IMG-SystemContext-Diagram]()
 
+En este diagrama, la aplicación de educación en línea se muestra como el sistema central que interactúa con diferentes 
+tipos de usuarios a través de interfaces de usuario, y puede integrarse con servicios externos como sistemas de pago o 
+proveedores de contenido.
+
 ### 4.6.2. Software Architecture Container Diagrams
+
+Los diagramas de contenedor muestran las diferentes tecnologías y componentes que componen el sistema, así como las 
+relaciones entre ellos. En nuestra aplicación de educación en línea, podríamos tener varios contenedores para 
+representar las capas de la aplicación, como la capa de presentación, la capa de lógica de negocio y la capa de datos. 
+Un diagrama de contenedores podría verse así:
 
 ![IMG-Container-Diagram]()
 
+En este diagrama, los contenedores representan las diferentes partes de la aplicación, como la interfaz de usuario, 
+los servicios web, la lógica de negocio y la base de datos. Estos contenedores se comunican entre sí a través de 
+interfaces bien definidas.
+
 ### 4.6.3. Software Architecture Components Diagrams
+
+Los diagramas de componentes muestran los diferentes componentes y módulos que componen cada contenedor de la 
+arquitectura. En nuestra aplicación de educación en línea, podríamos tener componentes para la autenticación de 
+usuarios, la gestión de cursos, la presentación de contenido, la evaluación de estudiantes, entre otros.
 
 #### User Managment Context
 
@@ -870,6 +916,8 @@ En esta sección, se definirán las tablas y relaciones necesarias para almacena
 eficiente.
 
 ### 4.8.1. Database Diagram
+
+[Link del Diagrama de Clases]()
 
 ___
 

@@ -220,17 +220,90 @@ desarrollo web. Espero ansioso poder aprender más del curso a medida que se des
 
 ## 1.2 Solution Profile
 
+| 5W - 2H     |                                                                                                                                                                                                                                                                        |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| What?       | Se ha identificado el problema de la poca retroalimentación y comunicación en plataformas de cursos en línea. Aún existe gran parte de usuarios tutores que no resuelven dudas ni ayudan a los usuarios que intentan aprender en línea.                                |                                                                                                                                                                                                                                |
+| When?       | Esta situación ocurre cuando usuarios entusiasmados pagan por cursos en línea y terminan con más dudas y confusiones que conocimientos consolidados.                                                                                                                   |
+| Where?      | Este problema se ha identificado en plataformas de cursos en línea como Coursera, Platzi y Udemy                                                                                                                                                                       |                                                                                                                                                                                                                                |
+| Who?        | Los afectados ante esta problemática son los usuarios aprendices.                                                                                                                                                                                                      |
+| Why?        | Este problema se da debido a que la educación en línea suele tener un poco más de barreras en la comunicación de tutores a alumnos.                                                                                                                                    |                                                                                                                                                                                                                                |
+| How?        | Los usuarios al consumir material de los cursos a los que se inscribieron reciben mucha información que los deja con muchas preguntas. Es importante resolver estas preguntas lo antes posible para una mejor curva de aprendizaje                                     |
+| How much?   | Este problema se da en múltiples oportunidades de manera diaria en plataformas de cursos en línea como Platzi, Udemy, Coursera, etc. Miles de personas acuden a estas plataformas para aprender de manera íntegra y esperan llevar un correcto proceso de aprendizaje. |
+
 ### 1.2.1 Antecedentes y problemática
 
 ### 1.2.2 Lean UX Process
-
 #### 1.2.2.1. Lean UX Problem Statements
+
+Nuestra aplicación brinda a usuarios aprendices inexpertos cursos en línea garantizándoles una buena comunicación con los usuarios tutores que imparten los cursos. De esta manera, se asegura la resolución de posibles dudas y preguntas que surjan por parte de los usuarios inexpertos.
+
+Existe el problema de que los usuarios aprendices buscan que sus dudas o preguntas sean respondidas o clarificadas lo más rápido posible, y que mejor que sean respondidas por el tutor experto del tema. Sin embargo, esto no sucede en la mayoría de casos en los que vemos una falta de comunicación íntegra entre los aprendices de los cursos y los tutores.
 
 #### 1.2.2.2. Lean UX Assumptions
 
+-   Nuestros usuarios buscan una aplicación de cursos en línea en la cual prime la comunicación entre los tutores y aprendices. Asimismo, buscan que sus preguntas sean respondidas de manera asertiva y en el menor tiempo posible para asegurar así una mejor curva de aprendizaje. Los usuarios tutores, por su parte, buscan ser reconocidos por su labor de no solo compartir sus conocimientos con los demás, si no de también preocuparse por el aprendizaje de sus alumnos.
+-   Tenemos 2 públicos objetivos: Los usuarios aprendices, que buscan adquirir conocimientos sobre ciertas materias. Asimismo, buscan que sus dudas y/o consultas sean respondidas en la mayor brevedad posible. Por otra parte, tenemos a los usuarios tutores, que si bien buscan compartir sus conocimientos con otros usuarios de la aplicación, también cuentan con la posibilidad de expandir sus conocimientos mediante los cursos de nuestra plataforma.
+-   La solución brindada busca mejorar la experiencia del usuario aprendiz garantizando una mejor comunicación con el tutor, sintiéndose así más seguro en su proceso de adquisición de conocimientos nuevos. La solución también ayuda a mejorar la experiencia de los usuarios profesores o tutores, dándoles reconocimiento en su labor no solo de compartir sus conocimientos, sino también de estar comprometidos con la educación de sus alumnos en plataformas en línea.
+
+Business Outcomes
+
+- Garantiza la expansión de conocimientos previos de usuarios tutores de nuestra aplicación
+- Mejora la experiencia del usuario aprendiz al garantizar que sus dudas o preguntas serán resueltas por expertos de las materias.
+- Aumenta la confiabilidad del trabajo de usuarios tutores, adquiriendo mayor cantidad de usuarios fieles a lo largo del tiempo.
+
+Users 	
+- Usuario aprendiz: Persona que solamente busca adquirir conocimientos en materias específicas y espera que sus dudas sean resueltas.
+- Usuario tutor: Personas expertas sobre algún tema que buscan compartir sus conocimientos con los demás. También buscan expandir sus conocimientos.
+
+User Outcomes
+- Los usuarios se sentirán familiarizados con el flujo de uso de la aplicación debido a que es una aplicación intuitiva y con un fácil entendimiento de su uso.
+- Los usuarios tutores ampliarán sus conocimientos previos de materias y no solo se limitarán a enseñar, si así lo desean.
+
+Features 	
+- Función que permite publicar un nuevo curso en línea.
+- Función que permite acceder a un chat privado con el tutor de un curso
+- Función que permite dejar preguntas acerca de un material en específico de un curso
+- Función que permite dejar rating acerca de tutores y cursos en línea
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+    
+Hypothesis: (1)
+
+Creemos que
+
+Al brindar una aplicación de cursos en línea con un preciado enfoque hacia la comunicación entre los tutores y aprendices, los usuarios tendrán una mejor experiencia dentro de nuestra plataforma.
+
+Sabremos que hemos tenido éxito
+
+Cuando se incremente la cantidad de usuarios que usan la aplicación en nuestra base de datos en un 20% después de 8 semanas.
+
+
+Hypothesis: (2)
+
+Creemos que
+
+Al brindar una calificación de tutores con base en la comunicación con sus alumnos, se elevará la cantidad de usuarios fieles de un tutor en nuestra plataforma.
+
+Sabremos que hemos tenido éxito
+
+Cuando se incremente la cantidad de seguidores de los tutores de nuestra plataforma en un 15% después de 4 semanas.
+
+
+Hypothesis: (3)
+
+Creemos que
+
+Al brindar un sistema de calificación de tutores con base en la comunicación retroalimentaria con sus alumnos, estos aumentarán sus ventas de cursos en línea.
+
+Sabremos que hemos tenido éxito
+
+Cuando se incremente la cantidad de ventas de cursos de tutores con buena calificación en un 20% después de 8 semanas.
 
 #### 1.2.2.4. Lean UX Canvas
+| 1. Problemas de Negocio <br/><br/>Nuestra aplicación brinda a nuestros usuarios aprendices un catálogo de cursos en línea, además de una comunicación activa con los tutores de dichos cursos. Existe el problema de que los usuarios aprendices buscan que las dudas o preguntas que les surgen sean resueltas durante su proceso de aprendizaje en línea. Sin embargo, esto no sucede frecuentemente en la actualidad, debido a que esto no es un foco principal para las plataformas de cursos en línea.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 5. Ideas de solución <br/><br/>· App de cursos en línea que cuentan con incentivos para los tutores que se preocupan por las dudas de sus alumnos.                                                                                                                                                                                                             | 2. Resultados Comerciales  <br/><br/>· Garantizar un mejor proceso de aprendizaje de nuestros usuarios aprendices al brindarles mayores vías de comunicación con los tutores expertos.  <br/>· Brindar confiabilidad a los tutores mediante los rankings o clasificaciones de labor en nuestra aplicación. <br/>· Aumentar las ventas de cursos en línea de nuestros usuarios tutores                                  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3. Usuarios y Clientes <br/><br/>· Usuario Aprendiz: Persona que busca adquirir conocimientos en línea de manera autodidacta sobre cierta materia. <br/>· Usuario Tutor: Persona que busca impartir sus conocimientos con otros, además de seguir educándose.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | <br/>· App de cursos en línea que soporte clases en vivo para que los tutores estén más al pendiente de las dudas o consultas de sus alumnos.                                                                                                                                                                                                                  | 4. Beneficios del usuario <br/><br/>· Mejorar las vías de comunicación entre los usuarios aprendices y tutores de nuestra aplicación. <br/>· Incrementar la confiabilidad de un tutor y la fidelidad de sus seguidores de su trabajo. <br/>· Garantizar un mejor proceso de aprendizaje mediante la pronta resolución de dudas o preguntas de los usuarios aprendices. <br/>· Aumentar las ventas los usuarios tutores |
+| 6. Hipótesis <br/><br/>Hypothesis: (1) <br/><br/>Creemos que <br/><br/>Al brindar una aplicación de cursos en línea con un preciado enfoque hacia la comunicación entre los tutores y aprendices, los usuarios tendrán una mejor experiencia dentro de nuestra plataforma. <br/><br/>Sabremos que hemos tenido éxito <br/><br/> Cuando se incremente la cantidad de usuarios que usan la aplicación en nuestra base de datos en un 20% después de 8 semanas. <br/><br/>Hypothesis: (2) <br/><br/>Creemos que <br/>Al brindar una calificación de tutores en base a la comunicación con sus alumnos, se elevará la cantidad de usuarios fieles de un tutor en nuestra plataforma. <br/><br/>Sabremos que hemos tenido éxito <br/><br/>Cuando se incremente la cantidad de seguidores de los tutores de nuestra plataforma en un 15% después de 4 semanas. <br/><br/> Hypothesis: (3) <br/><br/> Creemos que <br/><br/> Al brindar un sistema de calificación de tutores en base a la comunicación retroalimentaria con sus alumnos, estos aumentarán sus ventas de cursos en línea. <br/><br/>Sabremos que hemos tenido éxito <br/><br/> Cuando se incremente la cantidad de ventas de cursos de tutores con buena calificación en un 20% después de 8 semanas | 7. ¿Qué es lo más importante que debemos aprender primero? <br/><br/>· Conocer cuáles son las limitantes de una buena comunicación entre tutores y aprendices en plataformas en línea. <br/>· Conocer las razones por las cuales los usuarios aprendices no se sienten satisfechos o los cursos en línea no cumplen con sus expectativas en otras plataformas. | 8. ¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer la siguiente más importante?  <br/><br/>· Resultado de las entrevistas a personas que están buscando adquirir cursos en línea. <br/>· Resultado de las entrevistas a personas que buscan vender cursos en línea.                                                                                                        |
 
 ## 1.3. Segmentos objetivo
 
@@ -311,7 +384,7 @@ recolectar información necesaria para crear arquetipos de usuarios posteriormen
 - ¿Existe relación entre tener seguidores fieles de tu trabajo y la venta de tus cursos en plataformas en línea? Si es
   así, ¿Por qué?
 
-> egmento Objetivo 2: Alumnos
+> Segmento Objetivo 2: Alumnos
 
 - ¿Cuáles son tus principales motivaciones para aprender en línea?
 - ¿Has utilizado plataformas en línea para aprender antes? ¿Cuál ha sido tu experiencia?

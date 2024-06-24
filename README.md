@@ -1020,7 +1020,7 @@ Vamos a usar GitHub Pages para nuestra landing page por su alojamiento gratuito 
 de personalización de dominio y se integra perfectamente con nuestro flujo de trabajo de desarrollo. Con GitHub Pages,
 podemos desplegar rápidamente cambios en nuestra página sin preocuparnos por la complejidad del alojamiento web.
 
-[!LadingPage desplegado]()
+https://skillswap-si729.github.io/LandingPage/
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -1028,19 +1028,71 @@ podemos desplegar rápidamente cambios en nuestra página sin preocuparnos por l
 
 #### 5.2.1.1. Sprint Planning 1
 
+Comenzamos el proyecto planeando lo que se va a hacer en un periodo de tiempo, esto nos permite una mejor organización 
+para lograr los objetivos de la start-up. El sprint planning meeting se resume en el siguiente cuadro:
+
+<img src="assets/Sprint Planning 1.jpg">
+
 #### 5.2.1.2. Sprint Backlog 1
 
+El objetivo principal de un sprint es permitir que el proyecto se desarrolle de manera adecuada. La aplicación tiene en 
+cuenta sus funciones principales para que de esa forma logremos atraer a los consumidores para que utilicen nuestra 
+aplicación.
+
+<img src="assets/Sprint.jpg">
+
+<img src="assets/Back.jpg">
+
+<img src="assets/log.jpg">
+
+<img src="assets/1.jpg">
+
+<img src="assets/2.jpg">
+
+<img src="assets/3.jpg">
+
 #### 5.2.1.3. Development Evidence for Sprint Review
+
+En el presente sprint, hemos armado la maqueta de cómo serán nuestros commits para la web frontend application a 
+implementar.
+
+<img src="assets/Development Evidence.jpg">
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+Para este sprint hemos alcanzado solidificar las bases y lineamientos del proyecto. Las user stories y los segmentos 
+objetivos fueron partes importantes logradas durante este sprint. Estas bases nos ayudarán más adelante a implementar 
+la aplicación y sus funcionalidades. En los próximos sprints presentaremos avances de la implementación o construcción 
+del primer artefacto de software: Web Frontend Application.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Para la documentación de Web Services hasta este sprint, presentamos los endpoints que corresponderá a las 
+funcionalidades aplicación a continuación:
+
+<img src="assets/Services.jpg">
+
+<img src="assets/Documentation.jpg">
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Para el desarrollo de este sprint hemos configurado una cuenta en el portal de Azure en el cual se subirán los web 
+services de nuestro proyecto. Para ello hemos creado una cuenta en Azure:
+
+<img src="assets/Deployment.jpg">
+
+Y próximamente seleccionaremos los recursos de SQL Database y Web Application para alojar nuestra base de datos y 
+nuestros servicios web respectivamente:
+
+<img src="assets/software.jpg">
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+En esta sección el equipo explicaremos cómo se han desarrollado las actividades de
+implementación hasta el sprint presente y presentamos la captura en imagen de los analíticos de colaboración y
+commits en GitHub:
 
 ---
 
@@ -1085,9 +1137,53 @@ podemos desplegar rápidamente cambios en nuestra página sin preocuparnos por l
 <tr><td valign="top">HU-02</td><td valign="top">Inicio de sesión</td><td valign="top">02\.2</td><td valign="top">Pantallas de inicio de sesión</td><td valign="top">Implementar  inicio de sesión mediante componentes</td><td valign="top">3</td><td valign="top">Scott Huachaca</td><td valign="top">Done</td></tr>
 </table>
 
+#### 5.2.3.8. Team Collaboration Insights for Sprint Review
+
+### 5.3.2. Registro de Entrevistas
+
+| Entrevista 1                       | Marco Juarez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Edad                               | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Distrito                           | San Juan Bautista - Iquitos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| <img src="assets/Entrevista1.png"> | El usuario alumno nos menciona que prefiere tomar clases en línea porque le da tiempo para poder trabajar. El usuario llevó cursos en línea donde recomienda que para elegir un curso sería recomendable guiarse por referencias. Menciona que sus formas de contactar con profesores mayormente es dejando mensajes o comentarios sobre el curso o por whatsapp cuando dejan sus números. Y que le gustaría que hubiera chats grupales para mejorar la comunicación entre el profesor y los alumnos que tomaron el curso. |
+| URL de la grabacion                | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201914294_upc_edu_pe/EW0srrONSMRPqnXhlTy3xnEBslYmj-IMCtaoDj_l5Ft9cw?e=gUZCkr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                                                                                                                                                                     |
+| Timing                             | 12:30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+| Entrevista 2                       | Francisco Perez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Edad                               | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Distrito                           | San Juan Bautista - Iquitos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <img src="assets/Entrevista2.png"> | El usuario tutor busca constantemente enseñar ya sea formal o informalmente por amor a la enseñanza. Participo dando clases en línea y fuera de línea usando distintos tipos de enseñanza. Le gusta tener comunicación tanto con otros docentes como con los alumnos. Considera que los problemas suceden mayormente por las horas o el mismo ambiente que pueden afectar a los alumnos porque pueden estar cansados. Se preocupa por hacer que sus alumnos entiendan lo que enseña y por eso busca llevarse bien con ellos. Considera que los seguidores fieles de trabajos tienen relación con los alumnos en plataformas educacionales ya que pueden atraer más público en ambas situaciones. |
+| URL de la grabacion                | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201914294_upc_edu_pe/EW0srrONSMRPqnXhlTy3xnEBslYmj-IMCtaoDj_l5Ft9cw?e=gUZCkr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                                                                                                                                                                                                                                                                                                                                           |
+| Timing                             | 8:40                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+| Entrevista 3                       | Matthew Vargas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Edad                               | 19 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Distrito                           | San Juan Bautista - Iquitos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <img src="assets/Entrevista3.png"> | El usuario alumno menciona que es más accesible y barato tomar clases en linea a tomar clases presenciales por la facilidad y evitar gastos en pasajes además que es menos cansado. Considera que los cursos más atractivos o llamativos son cuando muestran videos o como un documental ya que son más sencillos de entender y divertidos. Considera que la competencia entre los alumnos ayuda a que sea una experiencia de aprendizaje en línea. El mayor desafío que enfrenta es que no conoce a las otras personas que toman el curso ya que solo ve al profesor en la clase. Y desde su punto de vista para mejorar la comunicación entre profesores y alumnos es recomendable hacer juegos en el salón, como el Kahoot, de esa forma activa a los alumnos y puede ver quienes están más débiles para ayudarlos. |
+| URL de la grabacion                | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201914294_upc_edu_pe/EW0srrONSMRPqnXhlTy3xnEBslYmj-IMCtaoDj_l5Ft9cw?e=gUZCkr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Timing                             | 6:30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+Github: https://github.com/SkillSwap-SI729
+
 # Conclusiones
 
 ### Conclusiones y recomendaciones
+
+* Con los informes de entrevistas e investigaciones de la competencia podemos brindar una página más efectiva en cuanto 
+a resultados para la enseñanza y comodidad tanto de los alumnos como profesores
+
+* La plataforma está bien diseñada y es fácil de usar, lo que la hace accesible para varios usuarios.
+
+* Esta startup sirve de mucha ayuda a aquellos alumnos que quieran reforzar sus conocimientos académicos y los tutores 
+podrán ayudarlos a lograr dichos objetivos.
+
+* El diseño del landing page y la experiencia del usuario en el sitio web son aspectos críticos para la retención y 
+satisfacción del usuario. Los hallazgos en este ámbito pueden definir la facilidad de navegación para los usuarios.
+
+* La existencia de plataformas de aprendizaje y la respuesta de los usuarios indican una demanda significativa de 
+educación en línea. La popularidad de la plataforma sugiere un interés creciente en aprender a través de cursos en línea.
 
 ### Video About-the-Team
 

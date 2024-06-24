@@ -1324,10 +1324,15 @@ El Sprint Planning 4 se agrego mas endpoints y se mejoro el spring 3 y realizado
 <img src="assets/W3.jpg">
 <img src="assets/W4.jpg">
 
+
+
 #### 5.2.4.5 Execution Evidence for Sprint Review
 
+<img src="assets/ExecutionEvidence.jpg">
 
+<img src="assets/Execution2.jpg">
 
+<img src="assets/Execution5.jpg">
 
 ## 5.3. Validation Interviews
 
@@ -1384,7 +1389,6 @@ Francisco Perez, de 21 años, de San Juan Bautista - Iquitos, ha utilizado nuest
 
 Entrevista 3
 Matthew Vargas, de 19 años, de San Juan Bautista - Iquitos, ha utilizado nuestra web app y ha dado su opinión sobre ella. El usuario alumno menciona que es más accesible y barato tomar clases en linea a tomar clases presenciales por la facilidad y evitar gastos en pasajes además que es menos cansado. Considera que los cursos más atractivos o llamativos son cuando muestran videos o como un documental ya que son más sencillos de entender y divertidos. Considera que la competencia entre los alumnos ayuda a que sea una experiencia de aprendizaje en línea. El mayor desafío que enfrenta es que no conoce a las otras personas que toman el curso ya
-
 
 ### 5.4 Video about-the-product
 

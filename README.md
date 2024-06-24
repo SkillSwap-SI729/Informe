@@ -855,7 +855,8 @@ El diagrama de contexto de la arquitectura de software muestra las interacciones
 partes externas, como usuarios, sistemas externos y servicios. En el caso de nuestra aplicación de educación en línea, 
 el diagrama de contexto podría verse así:
 
-![IMG-SystemContext-Diagram]()
+
+![IMG-SystemContext-Diagram](./assets/SystemContext.png)
 
 En este diagrama, la aplicación de educación en línea se muestra como el sistema central que interactúa con diferentes 
 tipos de usuarios a través de interfaces de usuario, y puede integrarse con servicios externos como sistemas de pago o 
@@ -868,7 +869,7 @@ relaciones entre ellos. En nuestra aplicación de educación en línea, podríam
 representar las capas de la aplicación, como la capa de presentación, la capa de lógica de negocio y la capa de datos. 
 Un diagrama de contenedores podría verse así:
 
-![IMG-Container-Diagram]()
+![IMG-Container-Diagram](./assets/Container.png)
 
 En este diagrama, los contenedores representan las diferentes partes de la aplicación, como la interfaz de usuario, 
 los servicios web, la lógica de negocio y la base de datos. Estos contenedores se comunican entre sí a través de 
@@ -880,17 +881,14 @@ Los diagramas de componentes muestran los diferentes componentes y módulos que 
 arquitectura. En nuestra aplicación de educación en línea, podríamos tener componentes para la autenticación de 
 usuarios, la gestión de cursos, la presentación de contenido, la evaluación de estudiantes, entre otros.
 
-#### User Managment Context
+#### User Context
 
-![IMG-Component_1-Diagram]()
+![IMG-Component_1-Diagram](./assets/UserContext.png)
 
-#### Booking Context
+#### Course Context
 
-![IMG-Component_3-Diagram]()
+![IMG-Component_1-Diagram](./assets/CourseContex.jpg)
 
-#### Scooter Inventory Context
-
-![IMG-Component_4-Diagram]()
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1084,6 +1082,11 @@ Vamos a usar GitHub Pages para nuestra landing page por su alojamiento gratuito 
 de personalización de dominio y se integra perfectamente con nuestro flujo de trabajo de desarrollo. Con GitHub Pages,
 podemos desplegar rápidamente cambios en nuestra página sin preocuparnos por la complejidad del alojamiento web.
 
+<img src="assets/ConfigurationDeployLanding.jpg">
+
+<img src="assets/LandingPageFoto.jpg">
+
+
 https://skillswap-si729.github.io/LandingPage/
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -1120,9 +1123,7 @@ aplicación.
 En el presente sprint, hemos armado la maqueta de cómo serán nuestros commits para la web frontend application a 
 implementar.
 
-<img src="assets/Development Evidence.jpg">
-
-#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+<img src="assets/CommitEvidence.jpg">
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -1130,6 +1131,7 @@ Para este sprint hemos alcanzado solidificar las bases y lineamientos del proyec
 objetivos fueron partes importantes logradas durante este sprint. Estas bases nos ayudarán más adelante a implementar 
 la aplicación y sus funcionalidades. En los próximos sprints presentaremos avances de la implementación o construcción 
 del primer artefacto de software: Web Frontend Application.
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -1157,6 +1159,9 @@ nuestros servicios web respectivamente:
 En esta sección el equipo explicaremos cómo se han desarrollado las actividades de
 implementación hasta el sprint presente y presentamos la captura en imagen de los analíticos de colaboración y
 commits en GitHub:
+
+<img src="assets/Commit.png">
+
 
 ---
 
@@ -1201,9 +1206,130 @@ commits en GitHub:
 <tr><td valign="top">HU-02</td><td valign="top">Inicio de sesión</td><td valign="top">02\.2</td><td valign="top">Pantallas de inicio de sesión</td><td valign="top">Implementar  inicio de sesión mediante componentes</td><td valign="top">3</td><td valign="top">Scott Huachaca</td><td valign="top">Done</td></tr>
 </table>
 
-## 5.3. Validation Interviews
+
+### 5.2.2.5 Execution Evidence for Sprint Review
+
+Para este sprint hemos alcanzado desarrollar la primera versión de nuestra aplicación frontend. Logramos implementar las principales vistas referentes a nuestra aplicación SkillSwap. Vistas como el perfil de un tutor, el perfil de un curso, vista de los tutores de nuestra aplicación, así también como la valoración de estos, ya se encuentran implementadas para el alcance de este Sprint. A continuación presentaremos screenshots de las principales vistas implementadas:
+
+Vista Home:
+
+<img src="assets/ExecutionEvidence.jpg">
+
+<img src="assets/Execution2.jpg">
+
+#### Tutors Catalogue:
+
+<img src="assets/Execution3.jpg">
+
+#### Vista de cursos publicados de un tutor:
+
+<img src="assets/Execution4.jpg">
+
+#### Vista de cursos:
+
+<img src="assets/Execution5.jpg">
+
+#### Comentario de un curso:
+
+
+<img src="assets/Execution6.jpg">
+
+#### Vista de perfil de un curso:
+
+
+<img src="assets/Execution7.jpg">
+
+#### Vista de comentario del trabajo del tutor en linea:
+
+<img src="assets/Execution8.jpg">
+
+### 5.2.2.6 Services Documentation Evidence for Sprint Review
+
+Para la documentación de Web Services hasta este sprint, presentamos los endpoints que corresponderá a las funcionalidades aplicación a continuación:
+
+<img src="assets/Services.jpg">
+
+<img src="assets/Documentation.jpg">
+
+### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+Para el desarrollo de este sprint aún no hemos desplegado nuestra página web al internet debido a que aún no contamos con los recursos técnicos ni monetarios para poder hacer uso de una suscripción a unos de los portales de la nube del mercado. Sin embargo, hemos desplegado nuestra frontend-web application localmente para poder llevar a cabo nuestro progreso hasta el momento.  Para ello hemos necesitado lo siguiente: En el IDE WebStorm, hemos ejecutado el siguiente comando sobre nuestro server o base de datos json:
+
+![img_3.png](img_3.png)
+
+El cual nos permitió desplegar nuestra fake api de manera local en el siguiente puerto:
+
+
+<img src="assets/endpoints.jpg">
+
+
+### 5.2.2.8 Team Collaboration Insights during Sprint
+En esta sección el equipo explicaremos cómo se han desarrollado las actividades de  implementación hasta el sprint 2 presente y presentamos la captura en imagen de los analíticos de colaboración y  commits en GitHub:
+
+<img src="assets/Commit.png">
+
+### 5.2.3 Sprint 3
+
+En el Sprint Planning 3 se planificó la elaboración del backend y la mejora continua del frontend del proyecto. En una reunión grupal se acordaron las tareas necesarias para desarrollar el backend con Spring Boot, detallando el proceso desde la planificación en el sprint 2 hasta la puesta en producción de este componente.
+
+#### 5.2.3.1 Sprint Planning 3
+
+<img src="assets/Sprint3Planning.jpg">
+
+#### 5.2.3.2 Sprint Backlog 3
+
+El objetivo principal de este sprint fue avanzar con la versión inicial de nuestra aplicación frontend. Implementamos las principales vistas y funcionalidades de la aplicación que nos sirvan como base para ir añadiendo competencia específicas a futuro. A continuación presentamos el Sprint Backlog 3:
+
+<img src="assets/ProductBacklog3.jpg">
+
+<img src="assets/EndpointsSpring3.jpg">
+
+<img src="assets/SpringEndpoint1.jpg">
+
+<img src="assets/Spring3Endpoint2.jpg">
+
+![img_4.png](img_4.png)
+
+#### 5.2.3.3 Services Documentation Evidence for Sprint Review
+
+Esta sección presenta una descripción detallada de los endpoints implementados en el sprint actual, junto con las acciones CRUD (Crear, Leer, Actualizar y Eliminar) que cada uno admite. También se incluyen los enlaces específicos que se utilizan para acceder a cada endpoint.
+
+
+
+
 
 #### 5.2.3.8. Team Collaboration Insights for Sprint Review
+
+<img src="assets/EvidencieBackend.jpg">
+
+#### 5.2.4. Sprint 4
+
+En esta sprint hemos realizado la fusion del frontend con el backend, para ello hemos realizado la implementación de la autenticación y autorización de los usuarios en la aplicación. A continuación se presenta el resumen de la planificación del sprint 4.
+
+#### 5.2.4.1 Sprint Planning 4
+
+
+
+El Sprint Planning 4 se realizó con el objetivo de implementar la funcionalidad de autenticación y autorización en el backend de la aplicación. Se planificaron las tareas necesarias para desarrollar esta funcionalidad, incluyendo la creación de endpoints para el registro, inicio de sesión y gestión de usuarios.
+
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+//Hazme el diseño de las entrevistas para validar la aplicación con preguntas principales y complementarias 
+
+1. ¿Qué te pareció la interfaz de la aplicación?
+2. ¿Qué funcionalidades te gustaría que se implementen en la aplicación?
+3. ¿Qué funcionalidades te parecen innecesarias en la aplicación?
+4. ¿Qué tan fácil fue para ti navegar por la aplicación?
+5. ¿Qué tan fácil fue para ti encontrar la información que buscabas?
+6. ¿Qué tan útil te pareció la información que encontraste?
+7. ¿Qué tan satisfecho estás con la aplicación en general?
+8. ¿Qué tan probable es que recomiendes la aplicación a un amigo o familiar?
+9. ¿Qué tan probable es que vuelvas a usar la aplicación en el futuro?
+10. ¿Tienes alguna otra sugerencia o comentario sobre la aplicación?
+
 
 ### 5.3.2. Registro de Entrevistas
 
@@ -1230,6 +1356,22 @@ commits en GitHub:
 | <img src="assets/Entrevista3.png"> | El usuario alumno menciona que es más accesible y barato tomar clases en linea a tomar clases presenciales por la facilidad y evitar gastos en pasajes además que es menos cansado. Considera que los cursos más atractivos o llamativos son cuando muestran videos o como un documental ya que son más sencillos de entender y divertidos. Considera que la competencia entre los alumnos ayuda a que sea una experiencia de aprendizaje en línea. El mayor desafío que enfrenta es que no conoce a las otras personas que toman el curso ya que solo ve al profesor en la clase. Y desde su punto de vista para mejorar la comunicación entre profesores y alumnos es recomendable hacer juegos en el salón, como el Kahoot, de esa forma activa a los alumnos y puede ver quienes están más débiles para ayudarlos. |
 | URL de la grabacion                | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201914294_upc_edu_pe/EW0srrONSMRPqnXhlTy3xnEBslYmj-IMCtaoDj_l5Ft9cw?e=gUZCkr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Timing                             | 6:30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+
+### 5.3.3. Registro de Entrevistas
+
+Entrevista 1 
+Marco Juarez, de 21 años, de San Juan Bautista - Iquitos, ha utilizado nuestra web app y ha dado su opinión sobre ella. El usuario alumno nos menciona que prefiere tomar clases en línea porque le da tiempo para poder trabajar. El usuario llevó cursos en línea donde recomienda que para elegir un curso sería recomendable guiarse por referencias. Menciona que sus formas de contactar con profesores mayormente es dejando mensajes o comentarios sobre el curso o por whatsapp cuando dejan sus números. Y que le gustaría que hubiera chats grupales para mejorar la comunicación entre el profesor y los alumnos que tomaron el curso.
+
+Entrevista 2
+Francisco Perez, de 21 años, de San Juan Bautista - Iquitos, ha utilizado nuestra web app y ha dado su opinión sobre ella. El usuario tutor busca constantemente enseñar ya sea formal o informalmente por amor a la enseñanza. Participo dando clases en línea y fuera de línea usando distintos tipos de enseñanza. Le gusta tener comunicación tanto con otros docentes como con los alumnos. Considera que los problemas suceden mayormente por las horas o el mismo ambiente que pueden afectar a los alumnos porque pueden estar cansados. Se preocupa por hacer que sus alumnos entiendan lo que enseña y por eso busca llevarse bien con ellos. Considera que los seguidores fieles de trabajos tienen relación con los alumnos en plataformas educacionales ya que pueden atraer más público en ambas situaciones.
+
+Entrevista 3
+Matthew Vargas, de 19 años, de San Juan Bautista - Iquitos, ha utilizado nuestra web app y ha dado su opinión sobre ella. El usuario alumno menciona que es más accesible y barato tomar clases en linea a tomar clases presenciales por la facilidad y evitar gastos en pasajes además que es menos cansado. Considera que los cursos más atractivos o llamativos son cuando muestran videos o como un documental ya que son más sencillos de entender y divertidos. Considera que la competencia entre los alumnos ayuda a que sea una experiencia de aprendizaje en línea. El mayor desafío que enfrenta es que no conoce a las otras personas que toman el curso ya
+
+
+### 5.4 Video about-the-product
+
 
 Github: https://github.com/SkillSwap-SI729
 

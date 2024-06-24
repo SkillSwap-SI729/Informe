@@ -1304,13 +1304,29 @@ Esta sección presenta una descripción detallada de los endpoints implementados
 
 #### 5.2.4. Sprint 4
 
-En esta sprint hemos realizado la fusion del frontend con el backend, para ello hemos realizado la implementación de la autenticación y autorización de los usuarios en la aplicación. A continuación se presenta el resumen de la planificación del sprint 4.
+En esta sprint hemos realizado mejoras con respecto al sprint 3 agregando mas endpoints y mejorando el spring 3.
 
 #### 5.2.4.1 Sprint Planning 4
 
+El Sprint Planning 4 se agrego mas endpoints y se mejoro el spring 3 y realizado el despliegue del backend.
+
+<img src="assets/Planning4.jpg">
+
+#### 5.2.4.2 Sprint Backlog 4
+
+<img src="assets/ProductBacklog3.jpg">
 
 
-El Sprint Planning 4 se realizó con el objetivo de implementar la funcionalidad de autenticación y autorización en el backend de la aplicación. Se planificaron las tareas necesarias para desarrollar esta funcionalidad, incluyendo la creación de endpoints para el registro, inicio de sesión y gestión de usuarios.
+#### 5.2.4.3 Development Evidence for Sprint Review
+
+<img src="assets/W1.jpg">
+<img src="assets/W2.jpg">
+<img src="assets/W3.jpg">
+<img src="assets/W4.jpg">
+
+#### 5.2.4.5 Execution Evidence for Sprint Review
+
+
 
 
 ## 5.3. Validation Interviews

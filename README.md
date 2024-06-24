@@ -1233,27 +1233,27 @@ commits en GitHub:
 
 Github: https://github.com/SkillSwap-SI729
 
+### Video About-the-Team
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/ERtEG_MSsDRIjbm9PJNWUDUBA5-k1SChykdhO2TGT3upqA?e=Ys9k9P
+
 # Conclusiones
 
 ### Conclusiones y recomendaciones
 
-* Con los informes de entrevistas e investigaciones de la competencia podemos brindar una página más efectiva en cuanto 
-a resultados para la enseñanza y comodidad tanto de los alumnos como profesores
+* Con los informes de entrevistas e investigaciones de la competencia podemos brindar una página más efectiva en cuanto
+  a resultados para la enseñanza y comodidad tanto de los alumnos como profesores
 
 * La plataforma está bien diseñada y es fácil de usar, lo que la hace accesible para varios usuarios.
 
-* Esta startup sirve de mucha ayuda a aquellos alumnos que quieran reforzar sus conocimientos académicos y los tutores 
-podrán ayudarlos a lograr dichos objetivos.
+* Esta startup sirve de mucha ayuda a aquellos alumnos que quieran reforzar sus conocimientos académicos y los tutores
+  podrán ayudarlos a lograr dichos objetivos.
 
-* El diseño del landing page y la experiencia del usuario en el sitio web son aspectos críticos para la retención y 
-satisfacción del usuario. Los hallazgos en este ámbito pueden definir la facilidad de navegación para los usuarios.
+* El diseño del landing page y la experiencia del usuario en el sitio web son aspectos críticos para la retención y
+  satisfacción del usuario. Los hallazgos en este ámbito pueden definir la facilidad de navegación para los usuarios.
 
-* La existencia de plataformas de aprendizaje y la respuesta de los usuarios indican una demanda significativa de 
-educación en línea. La popularidad de la plataforma sugiere un interés creciente en aprender a través de cursos en línea.
-
-### Video About-the-Team
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/ERtEG_MSsDRIjbm9PJNWUDUBA5-k1SChykdhO2TGT3upqA?e=Ys9k9P
+* La existencia de plataformas de aprendizaje y la respuesta de los usuarios indican una demanda significativa de
+  educación en línea. La popularidad de la plataforma sugiere un interés creciente en aprender a través de cursos en línea.
 
 # Bibliografía
 

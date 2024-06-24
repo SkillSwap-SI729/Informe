@@ -805,17 +805,17 @@ ___
 
 #### User Persona Segmento objetivo 2
 
-**Usar Goal: Como usuario quiero ...**
+**Usar Goal: Como usuario quiero ver listas de diferentes cursos**
 
-![IMAGEN-WireFlow]()
+<img src="assets/Persona.jpg">
 
-**Usar Goal: Como usuario quiero**
+**Usar Goal: Como usuario quiero ver un catálogo de tutores**
 
-![IMAGEN-WireFlow]()
+<img src="assets/Segmento.jpg">
 
-**Usar Goal: Como usuario...**
+**Usar Goal: Como usuario quiero ver el temario de los diferentes cursos**
 
-![IMAGEN-WireFlow]()
+<img src="assets/Objetivo.jpg">
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -907,6 +907,70 @@ diseño orientado a objetos.
 [Link del Diagrama de Clases]()
 
 ### 4.7.2. Class Dictionary
+
+- Users:
+
+userID (primary key)
+
+name 
+
+lastName
+
+email
+
+password
+
+Fecha de registro
+
+Tipo de usuario (estudiante, profesor, administrador, etc.)
+
+- Courses:
+  courseID (clave primaria)
+  Nombre del curso
+  Descripción
+  Nivel (básico, intermedio, avanzado)
+  Precio
+  Duración estimada
+  ID del profesor que lo imparte (clave foránea referenciando userID de Usuarios)
+
+
+- Lecciones:
+
+lessonID (clave primaria)
+Título de la lección
+Contenido
+ID del curso al que pertenece (clave foránea referenciando courseID de Cursos)
+
+- Materiales:
+
+materialID (clave primaria)
+Nombre del material (ejemplo: PDF, video, enlace externo)
+URL del material
+ID de la lección a la que pertenece (clave foránea referenciando lessonID de Lecciones)
+
+- Evaluaciones:
+
+evaluationID (clave primaria)
+Tipo de evaluación (examen, tarea, proyecto, etc.)
+Descripción
+Fecha de entrega
+Ponderación
+ID del curso al que pertenece (clave foránea referenciando courseID de Cursos)
+
+- Calificaciones:
+
+gradeID (clave primaria)
+Nota
+ID del estudiante (clave foránea referenciando userID de Usuarios)
+ID de la evaluación (clave foránea referenciando evaluationID de Evaluaciones)
+
+Relaciones:
+
+Un usuario puede estar inscrito en múltiples cursos.
+Un curso puede tener múltiples lecciones.
+Una lección puede tener múltiples materiales asociados.
+Un curso puede tener múltiples evaluaciones.
+Cada evaluación tiene múltiples calificaciones (una por estudiante)
 
 [Link del Diagrama de Clases]()
 
@@ -1009,7 +1073,7 @@ rápidamente y luego se fusiona de vuelta tanto en la rama principal como en la 
 
 **Angular Coding Style Guide**
 
-- Angular CLI: Se utilizara Angular CLI para generar componentes, servicios y otros artefactos de Angular de manera
+- Angular CLI: Se utilizará Angular CLI para generar componentes, servicios y otros artefactos de Angular de manera
   consistente
 - Se utiliza CamelCase para los nombres de los archivos y las clases de los componentes.
 - Se mantienen las funciones y métodos cortos y enfocados en una sola responsabilidad.
@@ -1137,6 +1201,8 @@ commits en GitHub:
 <tr><td valign="top">HU-02</td><td valign="top">Inicio de sesión</td><td valign="top">02\.2</td><td valign="top">Pantallas de inicio de sesión</td><td valign="top">Implementar  inicio de sesión mediante componentes</td><td valign="top">3</td><td valign="top">Scott Huachaca</td><td valign="top">Done</td></tr>
 </table>
 
+## 5.3. Validation Interviews
+
 #### 5.2.3.8. Team Collaboration Insights for Sprint Review
 
 ### 5.3.2. Registro de Entrevistas
@@ -1187,6 +1253,45 @@ educación en línea. La popularidad de la plataforma sugiere un interés crecie
 
 ### Video About-the-Team
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/ERtEG_MSsDRIjbm9PJNWUDUBA5-k1SChykdhO2TGT3upqA?e=Ys9k9P
+
 # Bibliografía
 
-# Anexos
+The Markdown Guide
+https://www.markdownguide.org/
+
+5W+2H - Técnica de análisis de problemas
+https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/
+
+Ubiquitous Language: Unambigulously define the term and concepts of a business
+domain.
+https://openpracticelibrary.com/practice/ubiquitous-language/
+
+User vs. Buyer Persona: Differences and free template
+https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference
+
+How to create an Impact Map in 4 easy steps?
+https://uxpressia.com/blog/build-impact-map-4-easy-steps
+
+As-is Scenario Map: Build a better understanding of your users’ current experience.
+https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map
+
+To-be Scenario Map: Draft a vision of your user’s future experience to show how
+your ideas address their current needs.
+https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map
+
+Empathy Map: Build empathy for your users through a conversation informed by
+your team’s observations.
+https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map
+
+Empathy Mapping: The First Step in Design Thinking
+https://www.nngroup.com/articles/empathy-mapping/
+
+Acceptance Criteria in Scrum: Explanation, Examples, and Template
+https://dzone.com/articles/acceptance-criteria-in-software-explanation-exampl
+
+A step-by-step guide to scenario mapping
+http://www.uxforthemasses.com/scenario-mapping/
+
+What are User Flows in User Experience (UX) Design?
+https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/
